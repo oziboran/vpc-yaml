@@ -25,6 +25,7 @@ Once the stack is created, you can find the VPC ID, public subnet IDs, and priva
 Cleanup
 Don't forget to delete the CloudFormation stack after testing:
 
+```bash
 aws cloudformation delete-stack --stack-name MyVPCStack
 
 
