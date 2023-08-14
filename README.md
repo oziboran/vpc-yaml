@@ -1,6 +1,6 @@
 # AWS VPC with Subnets, NAT Gateway, and Internet Gateway CloudFormation Template
 
-This CloudFormation template creates an AWS Virtual Private Cloud (VPC) with three public subnets and three private subnets. It also sets up an Internet Gateway for the public subnets and NAT Gateways for the private subnets.
+CloudFormation YAML template that creates an AWS Virtual Private Cloud (VPC) with three public subnets and three private subnets. It also configures an Internet Gateway and NAT Gateways for public and private subnets respectively. Additionally, it sets up route tables to manage traffic flow.
 
 ## Prerequisites
 
@@ -28,5 +28,3 @@ Don't forget to delete the CloudFormation stack after testing:
 ```bash
 aws cloudformation delete-stack --stack-name MyVPCStack
 
-
-CloudFormation YAML template that creates an AWS Virtual Private Cloud (VPC) with three public subnets and three private subnets. It also configures an Internet Gateway and NAT Gateways for public and private subnets respectively. Additionally, it sets up route tables to manage traffic flow.
